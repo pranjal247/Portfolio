@@ -18,15 +18,14 @@ CV
 </a>
 
 <ul>
-
 <li><a href="#about">About</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#contact">Contact</a></li>
-
 </ul>
 
 </nav>
+
 
 
 <section class="hero">
@@ -34,7 +33,9 @@ CV
 <div class="bg-shape shape1"></div>
 <div class="bg-shape shape2"></div>
 
-<img class="profile-pic" src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Pranjal">
+<img class="profile-pic"
+src="{{ url_for('static', filename='images/profile.jpg') }}"
+alt="Pranjal">
 
 <h1>{{ profile.name }}</h1>
 
@@ -42,9 +43,13 @@ CV
 {{ profile.title }}
 </h2>
 
-<a class="btn" href="#projects">Explore My Work</a>
+<div class="hero-buttons">
+<a class="btn" href="#projects">View Projects</a>
+
+</div>
 
 </section>
+
 
 
 <section id="about" class="section">
@@ -56,11 +61,13 @@ CV
 </section>
 
 
+
 <section id="projects" class="section">
 
 <h2>Projects</h2>
 
 <div class="project-grid">
+
 
 <div class="project-card">
 
@@ -75,6 +82,7 @@ CV
 </div>
 
 </div>
+
 
 
 <div class="project-card">
@@ -92,6 +100,7 @@ CV
 </div>
 
 
+
 <div class="project-card">
 
 <img src="{{ url_for('static', filename='images/project3.png') }}">
@@ -106,9 +115,11 @@ CV
 
 </div>
 
+
 </div>
 
 </section>
+
 
 
 <section id="skills" class="section">
@@ -134,23 +145,27 @@ CV
 </section>
 
 
+
 <section id="contact" class="section">
 
 <h2>Contact</h2>
 
 <p>Email: mpagt2020@gmail.com</p>
 
-<p>
 <h3>Socials</h3>
+
 <a href="https://www.linkedin.com/in/pranjal-tiwari-023873219" target="_blank">
-<h4>LinkedIn</h4>
+LinkedIn
 </a>
+
+<br>
+
 <a href="https://github.com/pranjal247" target="_blank">
-GitHub<br>
+GitHub
 </a>
-</p>
 
 </section>
+
 
 <footer>
 
