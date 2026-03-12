@@ -7,8 +7,8 @@ def home():
 
     profile = {
         "name": "Pranjal Tiwari",
-        "title": "Electrical & Computer Engineer | IoT Enthusiast",
-        "about": "B.Tech graduate from SRM Institute of Science and Technology with interests in IoT, Embedded Systems and Cloud Engineering.",
+        "title": "Electrical & Computer Engineer | Digital Marketing | IoT Enthusiast",
+        "about": "B.Tech graduate from SRM Institute of Science and Technology with interests in IoT, Embedded Systems and Digital Marketing.",
     }
 
     return render_template("index.html", profile=profile)
